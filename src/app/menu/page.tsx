@@ -12,7 +12,7 @@ export default function MenuPage() {
   return (
     <div className="relative flex min-h-screen w-full flex-col">
       {/* ── Hero ─────────────────────────────────────────── */}
-      <section className="mx-auto mt-6 w-full max-w-7xl px-4 sm:mt-8 sm:px-6 lg:px-10">
+      <section className="mx-auto mt-6 mb-6 w-full max-w-7xl px-4 sm:mt-8 sm:mb-10 sm:px-6 lg:px-10">
         <div className="overflow-hidden rounded-2xl bg-white shadow-sm">
           <div className="flex flex-col lg:flex-row">
             {/* Hero image — taller on mobile */}

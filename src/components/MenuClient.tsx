@@ -76,7 +76,7 @@ export function MenuClient() {
   return (
     <>
       {/* ── Tab bar ─────────────────────────────────────── */}
-      <div className="sticky top-14 z-40 border-b border-primary/10 bg-white/95 backdrop-blur-sm">
+      <div className="sticky top-14 z-40 border-b border-primary/5 bg-bg-light/95 backdrop-blur-md pt-2 sm:pt-4">
         <div className="mx-auto max-w-4xl px-4 sm:px-6">
           <div className="flex gap-2 overflow-x-auto scrollbar-hide py-3" role="tablist" aria-label="Menü kategorileri">
             {TABS.map((tab) => {
