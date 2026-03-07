@@ -1,8 +1,11 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  // No external image domains needed — add restaurant photo domains here when available
-  // e.g. images: { remotePatterns: [{ hostname: 'cdn.example.com' }] }
+  output: "export",
+  basePath: "/fish-fish",
+  images: {
+    unoptimized: true,
+  },
 }
 
 export default nextConfig

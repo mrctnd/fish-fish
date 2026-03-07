@@ -71,7 +71,7 @@ export default function HomePage() {
             className="object-cover object-center brightness-[0.25]"
             priority
           />
-          <div className="absolute inset-0 bg-primary/88" />
+          <div className="absolute inset-0 bg-primary/96" />
         </div>
 
         {/* Dot grid */}
@@ -110,16 +110,16 @@ export default function HomePage() {
           </div>
 
           {/* Eyebrow */}
-          <p className="mb-5 animate-fade-up-d1 text-[10px] font-semibold uppercase tracking-[0.22em] text-accent/70">
+          <p className="mb-5 animate-fade-up-d1 text-[10px] font-semibold uppercase tracking-[0.22em] text-accent">
             Çankaya &middot; Ankara
           </p>
 
           {/* Heading */}
           <h1
-            className="animate-fade-up-d1 font-display text-[2.75rem] font-light leading-[1.12] tracking-tight text-white sm:text-[3.75rem] md:text-[4.5rem]"
+            className="animate-fade-up-d1 font-display text-[3.1rem] font-light leading-[1.12] tracking-tight text-white drop-shadow-[0_2px_18px_rgba(0,0,0,0.8)] sm:text-[3.75rem] md:text-[4.5rem]"
           >
             Denizin Tazeligiyle,{' '}
-            <span className="text-white/55">Çankaya&apos;nın Kalbinde.</span>
+            <span className="text-white/80">Çankaya&apos;nın Kalbinde.</span>
           </h1>
 
           {/* Thin accent rule */}
@@ -129,7 +129,7 @@ export default function HomePage() {
           />
 
           {/* Subtext */}
-          <p className="animate-fade-up-d2 max-w-[30ch] text-[0.9rem] font-light leading-relaxed text-white/60 sm:max-w-sm">
+          <p className="animate-fade-up-d2 max-w-[30ch] text-[0.9rem] font-light leading-relaxed text-white/90 sm:max-w-sm">
             Taze helal deniz ürünleri &mdash; sade, samimi, özenli.
           </p>
 
