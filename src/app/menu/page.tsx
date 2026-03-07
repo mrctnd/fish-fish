@@ -47,7 +47,7 @@ export default function MenuPage() {
                 lezzetleri keşfedin.
               </p>
 
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-col gap-3 sm:flex-row">
                 <a
                   href={`tel:${BUSINESS.phoneTel}`}
                   className="flex h-11 items-center justify-center rounded-xl bg-primary px-6 text-sm font-bold text-white shadow-md shadow-primary/20 transition-all hover:bg-primary/90"
