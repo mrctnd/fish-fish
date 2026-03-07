@@ -30,7 +30,7 @@ export default function HomePage() {
         >
           <div className="relative flex-1 overflow-hidden">
             <Image
-              src="/ic-mekan-3.webp"
+              src="/fish-fish/ic-mekan-3.webp"
               alt=""
               fill
               className="object-cover object-center brightness-[0.45]"
@@ -39,7 +39,7 @@ export default function HomePage() {
           </div>
           <div className="relative flex-1 overflow-hidden">
             <Image
-              src="/menu-foto-1.webp"
+              src="/fish-fish/menu-foto-1.webp"
               alt=""
               fill
               className="object-cover object-center brightness-[0.45]"
@@ -48,7 +48,7 @@ export default function HomePage() {
           </div>
           <div className="relative flex-1 overflow-hidden">
             <Image
-              src="/dis-mekan.webp"
+              src="/fish-fish/dis-mekan.webp"
               alt=""
               fill
               className="object-cover object-center brightness-[0.45]"
@@ -65,7 +65,7 @@ export default function HomePage() {
           className="pointer-events-none absolute inset-0 md:hidden"
         >
           <Image
-            src="/menu-foto-2-musteri-teslim.webp"
+            src="/fish-fish/menu-foto-2-musteri-teslim.webp"
             alt=""
             fill
             className="object-cover object-center brightness-[0.25]"
@@ -100,7 +100,7 @@ export default function HomePage() {
           {/* Logo */}
           <div className="mb-10 animate-fade-up">
             <Image
-              src="/logo.png"
+              src="/fish-fish/logo.png"
               alt="Fish&Fish logosu"
               width={100}
               height={100}
@@ -194,7 +194,7 @@ export default function HomePage() {
           {/* Photo */}
           <div className="relative order-1 aspect-[4/5] overflow-hidden rounded-2xl md:order-2">
             <Image
-              src="/musteriler.webp"
+              src="/fish-fish/musteriler.webp"
               alt="Fish&Fish restoranında mutlu müşteriler"
               fill
               className="object-cover object-center"
@@ -216,7 +216,7 @@ export default function HomePage() {
         <div className="grid grid-cols-3">
           <div className="relative aspect-[2/3] overflow-hidden">
             <Image
-              src="/foto-3.webp"
+              src="/fish-fish/foto-3.webp"
               alt="Fish&Fish tabakları"
               fill
               className="object-cover object-center transition-transform duration-700 hover:scale-[1.04]"
@@ -225,7 +225,7 @@ export default function HomePage() {
           </div>
           <div className="relative aspect-[2/3] overflow-hidden">
             <Image
-              src="/ic-mekan-3.webp"
+              src="/fish-fish/ic-mekan-3.webp"
               alt="Fish&Fish iç mekan"
               fill
               className="object-cover object-center transition-transform duration-700 hover:scale-[1.04]"
@@ -234,7 +234,7 @@ export default function HomePage() {
           </div>
           <div className="relative aspect-[2/3] overflow-hidden">
             <Image
-              src="/dis-mekan-menu-1.webp"
+              src="/fish-fish/dis-mekan-menu-1.webp"
               alt="Fish&Fish dış mekan yemek"
               fill
               className="object-cover object-center transition-transform duration-700 hover:scale-[1.04]"

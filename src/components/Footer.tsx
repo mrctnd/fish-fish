@@ -15,7 +15,7 @@ export function Footer() {
           aria-label="Fish&Fish ana sayfası"
         >
           <Image
-            src="/logo.png"
+            src="/fish-fish/logo.png"
             alt="Fish&Fish logosu"
             width={28}
             height={28}

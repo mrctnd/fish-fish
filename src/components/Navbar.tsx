@@ -44,7 +44,7 @@ export function Navbar() {
             aria-label="Fish&Fish — ana sayfaya git"
           >
             <Image
-              src="/logo.png"
+              src="/fish-fish/logo.png"
               alt="Fish&Fish logosu"
               width={32}
               height={32}
@@ -116,7 +116,7 @@ export function Navbar() {
             onClick={() => setOpen(false)}
           >
             <Image
-              src="/logo.png"
+              src="/fish-fish/logo.png"
               alt="Fish&Fish logosu"
               width={32}
               height={32}
