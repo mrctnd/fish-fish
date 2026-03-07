@@ -96,9 +96,9 @@ export default function HomePage() {
         />
 
         {/* ── Content ── */}
-        <div className="relative z-10 flex w-full flex-col items-center px-6 py-24 text-center md:mx-auto md:max-w-2xl md:py-0">
+        <div className="relative z-10 flex w-full flex-col items-center px-6 py-10 text-center sm:py-20 md:mx-auto md:max-w-2xl md:py-0">
           {/* Logo */}
-          <div className="mb-10 animate-fade-up">
+          <div className="mb-6 animate-fade-up sm:mb-10">
             <Image
               src="/fish-fish/logo.png"
               alt="Fish&Fish logosu"
@@ -110,13 +110,13 @@ export default function HomePage() {
           </div>
 
           {/* Eyebrow */}
-          <p className="mb-5 animate-fade-up-d1 text-[10px] font-semibold uppercase tracking-[0.22em] text-accent">
+          <p className="mb-3 animate-fade-up-d1 text-[10px] font-semibold uppercase tracking-[0.22em] text-accent sm:mb-5">
             Çankaya &middot; Ankara
           </p>
 
           {/* Heading */}
           <h1
-            className="animate-fade-up-d1 font-display text-[3.1rem] font-light leading-[1.12] tracking-tight text-white drop-shadow-[0_2px_18px_rgba(0,0,0,0.8)] sm:text-[3.75rem] md:text-[4.5rem]"
+            className="animate-fade-up-d1 font-display text-[2.6rem] font-light leading-[1.12] tracking-tight text-white drop-shadow-[0_2px_18px_rgba(0,0,0,0.8)] sm:text-[3.75rem] md:text-[4.5rem]"
           >
             Denizin Tazeligiyle,{' '}
             <span className="text-white/80">Çankaya&apos;nın Kalbinde.</span>
@@ -124,7 +124,7 @@ export default function HomePage() {
 
           {/* Thin accent rule */}
           <div
-            className="my-8 h-px w-10 animate-fade-up-d2 bg-accent/35"
+            className="my-5 h-px w-10 animate-fade-up-d2 bg-accent/35 sm:my-8"
             aria-hidden="true"
           />
 
@@ -134,7 +134,7 @@ export default function HomePage() {
           </p>
 
           {/* CTAs */}
-          <div className="animate-fade-up-d3 mt-10 flex flex-col items-center gap-3 sm:flex-row">
+          <div className="animate-fade-up-d3 mt-7 flex flex-col items-center gap-3 sm:mt-10 sm:flex-row">
             <Link
               href="/menu"
               className="inline-flex items-center gap-3 rounded-full bg-white px-8 py-4 text-[0.82rem] font-bold uppercase tracking-[0.14em] text-primary shadow-lg shadow-black/20 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-black/25"
