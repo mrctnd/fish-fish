@@ -150,12 +150,12 @@ export const FAQ_ITEMS = [
 ] as const
 
 export const PAYMENT_PARTNERS = [
-  { name: 'Metropol Card',       logo: '/metropol-logo.svg',           logoClass: 'h-20' },
-  { name: 'Multinet',            logo: '/multinet-logo.png',           logoClass: 'h-28' },
-  { name: 'Setcard',             logo: '/setcard-logo.png',            logoClass: 'h-20' },
-  { name: 'Token Flex',          logo: '/token-flex-logo.png',         logoClass: 'h-20' },
-  { name: 'Ticket Restaurant',   logo: '/ticket-restaurant-logo.png',  logoClass: 'h-20' },
-  { name: 'Pluxee',              logo: '/pluxee-logo.png',             logoClass: 'h-20' },
+  { name: 'Metropol Card',       logo: '/fish-fish/metropol-logo.svg',           logoClass: 'h-20' },
+  { name: 'Multinet',            logo: '/fish-fish/multinet-logo.png',           logoClass: 'h-28' },
+  { name: 'Setcard',             logo: '/fish-fish/setcard-logo.png',            logoClass: 'h-20' },
+  { name: 'Token Flex',          logo: '/fish-fish/token-flex-logo.png',         logoClass: 'h-20' },
+  { name: 'Ticket Restaurant',   logo: '/fish-fish/ticket-restaurant-logo.png',  logoClass: 'h-20' },
+  { name: 'Pluxee',              logo: '/fish-fish/pluxee-logo.png',             logoClass: 'h-20' },
 ] as const
 
 export const NAV_LINKS = [
