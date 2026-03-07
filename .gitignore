@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Build
+build/
+
+# Env & secrets
+.env
+.env.local
+.env*.local
+mcp.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+
+# Claude
+ui-ux-pro-max-skill/
+stitch-designs/

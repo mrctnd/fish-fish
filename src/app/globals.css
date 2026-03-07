@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary:   #0a2747;
+    --color-accent:    #b8956a;
+    --color-bg-light:  #f6f7f8;
+    --color-charcoal:  #334155;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scrollbar-gutter: stable;
+  }
+
+  body {
+    @apply font-sans text-slate-900 bg-bg-light antialiased;
+  }
+
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary;
+  }
+}
+
+@layer components {
+  /* Skip-to-content link (WCAG) */
+  .skip-link {
+    @apply absolute -top-full left-4 z-[9999] bg-primary text-white px-4 py-2 rounded-b-md text-sm font-medium transition-all;
+  }
+  .skip-link:focus {
+    @apply top-0;
+  }
+
+  /* Page header band */
+  .page-header {
+    @apply bg-primary text-white py-16 md:py-24 px-4 text-center;
+  }
+  .page-header h1 {
+    @apply text-3xl md:text-5xl font-black mb-4;
+  }
+  .page-header p {
+    @apply text-lg md:text-xl text-white/80 max-w-2xl mx-auto;
+  }
+
+  /* Section container */
+  .container-md {
+    @apply max-w-5xl mx-auto px-4;
+  }
+
+  /* Card */
+  .card {
+    @apply bg-white rounded-2xl shadow-sm p-6 md:p-8 border border-primary/10
+           transition-all duration-300 hover:shadow-md hover:-translate-y-0.5;
+  }
+}
+
+@layer utilities {
+  /* ── Scroll-reveal ──────────────────────────────────── */
+  .reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    transition:
+      opacity  0.65s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .reveal-delay-100 { transition-delay: 100ms; }
+  .reveal-delay-200 { transition-delay: 200ms; }
+  .reveal-delay-300 { transition-delay: 300ms; }
+  .reveal-delay-400 { transition-delay: 400ms; }
+
+  /* ── Hide scrollbar but keep scrolling ─────────────── */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* ── Reduced-motion fallback ────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  [class*='animate-'] {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
