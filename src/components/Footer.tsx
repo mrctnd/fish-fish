@@ -27,7 +27,8 @@ export function Footer() {
         </Link>
 
         <p className="text-center text-[11px] text-slate-400 sm:text-right">
-          © {currentYear} Fish&amp;Fish &middot; {BUSINESS.address.city}
+          © {currentYear} Fish&amp;Fish &middot; {BUSINESS.address.city} &middot;{' '}
+          <Link href="/gizlilik" className="underline hover:text-primary">Gizlilik ve KVKK</Link>
         </p>
 
       </div>
