@@ -25,3 +25,4 @@ Thumbs.db
 # Claude
 ui-ux-pro-max-skill/
 stitch-designs/
+*.tsbuildinfo
